@@ -17,8 +17,8 @@ export default {
         "purple-footer": "#252641"
       },
       backgroundImage: {
-        "instructor": "url('./src/assets/instructor.png')",
-        "student": "url('./src/assets/students.png')",
+        "instructor": 'url("./src/assets/instructor.png")',
+        "student": 'url("./src/assets/students.png")',
       }
     },
   },
