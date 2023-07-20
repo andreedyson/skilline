@@ -1,4 +1,4 @@
-import {google, netflix, airbnb, amazon, facebook, grab, grid, front, users, invoice, calendar, userswhite, features2, features3, features4, features5, onedrive, dropbox, drive, teams, testi1, testi2, testi3, testi1text, testi2text, testi3text, blog2, blog3, blog4} from '../assets/assetsData';
+import {google, netflix, airbnb, amazon, facebook, grab, grid, front, users, invoice, calendar, userswhite, features2, features3, features4, features5, onedrive, dropbox, drive, teams, testi1, testi2, testi3, testi1text, testi2text, testi3text, blog2, blog3, blog4, instructors, students} from '../assets/assetsData';
 
 export const navLinks = [
     {
@@ -43,6 +43,21 @@ export const companies = [
     {
         id: "grab",
         img: grab
+    }
+];
+
+export const customers = [
+    {
+        id: "instructors",
+        name: "For Instructors",
+        img: instructors,
+        button: "Start a class today"
+    },
+    {
+        id: "students",
+        name: "For Students",
+        img: students,
+        button: "Start a class today"
     }
 ];
 
