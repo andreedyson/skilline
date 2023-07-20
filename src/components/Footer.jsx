@@ -2,7 +2,7 @@ import { logofooter } from "../assets/assetsData";
 
 const Footer = () => {
   return (
-    <footer className='max-w-[2000px] mx-auto bg-purple-footer px-6 py-12 lg:px-20'>
+    <footer className="max-w-[2000px] mx-auto bg-purple-footer px-6 py-12 lg:px-20">
         <div className="flex flex-col items-center gap-10 text-white">
             <div className="flex items-center">
                 <img src={logofooter} alt="" className="w-[150px] px-6"/>

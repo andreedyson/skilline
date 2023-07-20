@@ -1,9 +1,9 @@
 import { hero } from "../assets/assetsData";
-import { HiMiniPlay } from 'react-icons/hi2';
+import { HiMiniPlay } from "react-icons/hi2";
 
 const Hero = () => {
   return (
-    <section className='max-w-[2000px] mx-auto bg-light-orange px-6 py-4 lg:px-20'>
+    <section className="max-w-[2000px] mx-auto bg-light-orange px-6 py-4 lg:px-20">
         <div className="grid grid-cols-1 gap-8 lg:grid-cols-2 place-items-center">
             {/* Hero Text */}
             <div className="flex flex-col items-center gap-4 lg:gap-8 lg:items-start">

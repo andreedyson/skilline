@@ -20,7 +20,7 @@ const NewsCard = () => {
                         <img src={blog.img} alt="" className="bg-contain max-md:w-[400px] max-xl:w-[620px]"/>
                     </div>
                     <div>
-                        <span className='inline-block px-3 py-1 mb-2 text-xs font-medium uppercase rounded-full bg-yellow-type text-navy-blue md:text-sm'>{blog.type} </span>
+                        <span className="inline-block px-3 py-1 mb-2 text-xs font-medium uppercase rounded-full bg-yellow-type text-navy-blue md:text-sm">{blog.type} </span>
                         <h3 className="max-w-[350px] mb-4 text-base md:text-lg lg:text-[24px] font-bold md:max-w-[570px]">{blog.title}</h3>
                         <p className="max-w-[350px] mb-4 text-sm md:text-base lg:text-lg text-gray-text md:max-w-[550px]">{blog.description}</p>
                     </div>

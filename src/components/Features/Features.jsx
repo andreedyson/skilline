@@ -4,12 +4,12 @@ import FeaturesItems from "./FeaturesItems";
 
 const Features = () => {
   return (
-    <section className='max-w-[2000px] mx-auto px-6 py-12 lg:px-20'>
+    <section className="max-w-[2000px] mx-auto px-6 py-12 lg:px-20">
         <div className="flex flex-col items-center justify-center">
           {/* Features Header */}
           <div className="flex flex-col items-center text-center">
-            <h2 className='text-2xl font-bold text-navy-blue md:text-3xl lg:text-4xl'>Our <span className='text-main-orange'>Features</span></h2>
-            <p className='max-w-[1100px] text-base text-gray-text md:text-lg lg:text-xl'>This very extraordinary feature, can make learning activities more efficient</p>
+            <h2 className="text-2xl font-bold text-navy-blue md:text-3xl lg:text-4xl">Our <span className="text-main-orange">Features</span></h2>
+            <p className="max-w-[1100px] text-base text-gray-text md:text-lg lg:text-xl">This very extraordinary feature, can make learning activities more efficient</p>
           </div>
           {/* Features Main Items */}
           <div className="flex flex-col items-center justify-between mt-12 lg:flex-row">
@@ -20,7 +20,7 @@ const Features = () => {
             {/* Features Main Text */}
             <div className="flex flex-col items-center lg:items-start">
               <div className="mt-20 mb-8">
-                <h2 className='text-2xl font-bold text-center text-navy-blue md:text-3xl lg:text-4xl lg:text-start'>A <span className="text-main-orange">user interface</span> designed for the classroom</h2>
+                <h2 className="text-2xl font-bold text-center text-navy-blue md:text-3xl lg:text-4xl lg:text-start">A <span className="text-main-orange">user interface</span> designed for the classroom</h2>
               </div>
               <div>
                 <ul className="flex flex-col gap-6">
