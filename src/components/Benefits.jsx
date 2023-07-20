@@ -3,7 +3,7 @@ import { benefits } from "../data/data";
 
 const Benefits = () => {
   return (
-    <section className="max-w-[2000px] mx-auto px-6 py-8 lg:px-20">
+    <section id="careers" className="max-w-[2000px] mx-auto px-6 py-8 lg:px-20">
         <div>
             {/* Clients Images */}
             <Clients />
