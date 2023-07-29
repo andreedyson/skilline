@@ -57,7 +57,7 @@ export const customers = [
         id: "students",
         name: "For Students",
         img: students,
-        button: "Start a class today"
+        button: "Enter access code"
     }
 ];
 
